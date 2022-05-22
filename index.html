@@ -3,62 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Ponomarenko Olexsandr</title>
+    <link href="style.css"
+    rel="stylesheet"
+    />
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="225699.jpg" width="200" alt="Тут фото кота з батоном"/>
-            </td>
-            <td>
+    <div class="conteiner">
+    <div class="info">
+        
+                <img src="225699.jpg" alt="Тут фото кота з батоном" class="avatar"/>
+                <div class="info-text">
                 <h1>Пономаренко Олександр</h1>
-                <p><em>Я студент <strong>Харківського Аерокосмічного Інституту</strong></em></p>
-                <p>Я вчусь на 121 спеціальності Індженер Програмного Забезпечення</p>            
-            </td>
-        </tr>
+                <p>Я студент <strong>Харківського Аерокосмічного Інституту</strong></p>
+                <p>Я вчусь на 121 спеціальності Індженер Програмного Забезпечення</p>          
+                <h4>Мої соц.мережі</h4>
+                    <a href="https://instagram.com/durackiruskii" target="blank">Instagram</a>
+                    |
+                    <a href="https://t.me/helloitsjonny" target="blank">Telegram</a>
+                </div>
+    </div>
 
-    </table>
-
-
-    <hr>
-
-    <h2>Мої соц.мережі</h2>
-    <ul type="square">
-        <li><a href="https://instagram.com/durackiruskii" target="blank">Instagram</a></li>
-        <li><a href="https://t.me/helloitsjonny" target="blank">Telegram</a></li>
-    </ul>
-
+<div class="card bg-yellow">
     <h2>Мої хоббі</h2>
-    <ol>
+    <ol class="list">
         <li>Велоспорт</li>
         <li>Страйкбол</li>
         <li>Плавання</li>
         <li>Великі цицьки</li>
     </ol>
 
-    <h2>Напиши мені</h2>
-
-    <form >
-<label for="name">Ваше ім'я:</label>
-<input for="text" id="name" placeholder="Введіть ваше ім'я"></input>
-<label for="email">Ваш Email:</label>
-<input for="email" id="email" placeholder="Введіть ваш email"></input>
-<br>
-<input type="submit" value="Зв'язатись">
-<label for="text">Ваше повідомлення:</label>
-<br>
-<textarea id="text" rows="5" cols="15"></textarea>
-    </form>
-
-    <hr>
-
+</div>
+<div class="card bg-green">
     <h2>Досвід роботи</h2>
-    <table border="2">
-        <tr>
-            <th>Компанія</th>
-            <th>Посада</th>
-            <th>Рік</th>
-        </tr>
+    <table class="table">
         <tr>
             <td>Тетчер</td>
             <td>Кур'єр</td>
@@ -66,15 +43,66 @@
         </tr>
         <tr>
             <td>SpaceBigDick</td>
-            <td>Велийкий Майстер</td>
+            <td >Велийкий Майстер</td>
             <td>2001-2022</td>
         </tr>
+        <tr>
+            <td>Бар "Без баб"</td>
+            <td>Бармен</td>
+            <td>2017-2019</td>
+        </tr>
     </table>
+</div>
+    
 
-    <hr>
-
-
+<div class="card bg-red">
+    
     <h2>Великі цицьки</h2>
+    <ul class="link-list">
+    <li>
+        <a href="boobs.html">Переглянути список</a>
+</li>
+    <br>
+    <li>
     <a href="boobs.html">Переглянути список</a>
+</li>
+</ul>
+    <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
+</div>
+<div class="card">
+    <div class="contact">
+    <h2>Напиши мені</h2>
+
+    <form action="/">
+        <div class="row">
+        <div class="form-group">
+<label for="name">Ваше ім'я:</label>
+<input for="text" id="name" placeholder="Введіть ваше ім'я"></input>
+    </div>
+    <div class="form-group">
+<label for="email">Ваш Email:</label>
+<input for="email" id="email" placeholder="Введіть ваш email"></input>
+</div>
+</div>
+<div class="form-group">
+<label for="text">Ваше повідомлення:</label>
+<textarea id="text" rows="5" cols="40"></textarea>
+</div>
+<input class="btn" type="submit" value="Зв'язатись">
+    </form>
+</div>
+</div>
+<div class="position">
+    <div class="box">
+        
+    </div>
+</div>
+</div>
+<div style="margin-bottom: 500px;"></div>
 </body>
 </html>
